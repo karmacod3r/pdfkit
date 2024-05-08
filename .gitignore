@@ -4,9 +4,9 @@ lib/font/tables/.DS_Store
 node-zlib/
 playground/
 build/
-js/
-.vscode
+.vcode
 coverage
 package-lock.json
 /examples/browserify/bundle.js
-.idea/
+.idea
+
