@@ -1311,10 +1311,11 @@ const {
   PDFTilingPattern: PDFTilingPattern$1
 } = pattern;
 var ColorMixin = {
-  spotColors: {},
-  spotColorsCount: 0,
   initColor() {
-    // The opacity dictionaries
+    this.spotColors = {};
+    this.spotColorsCount = 0;
+
+      // The opacity dictionaries
     this._opacityRegistry = {};
     this._opacityCount = 0;
     this._patternCount = 0;
